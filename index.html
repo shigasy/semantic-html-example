@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Document</title>
 </head>
 
@@ -19,42 +20,44 @@
     </nav>
   </header>
 
-  <main>
-    <article>
-      <header>
-        <h1>セマンティックHTMLとは</h1>
-        <time>2020年5月23日</time>
-      </header>
-      <section>
-        <h2>セマンティックHTMLの解説</h2>
-        <p>記述するコンテンツの意味に合ったタグを使ってマークアップすること</p>
-      </section>
-      <section>
-        <h2>セマンティックHTMLのメリット</h2>
-        <p>メリットがなければ使いません。紹介しておきます。</p>
-        <h3>検索エンジン最適化</h3>
-        <p>クローラーにとって読みやすいね。</p>
-        <h3>アクセシビリティ</h3>
-        <p>スクリーンリーダーが解析しやすくなるよ</p>
-      </section>
-      <footer>
-        <aside>
-          SNSシェア
-        </aside>
-      </footer>
-    </article>
-  </main>
+  <div class="container">
+    <main class="main">
+      <article>
+        <header>
+          <h1>セマンティックHTMLとは</h1>
+          <time>2020年5月23日</time>
+        </header>
+        <section>
+          <h2>セマンティックHTMLの解説</h2>
+          <p>記述するコンテンツの意味に合ったタグを使ってマークアップすること</p>
+        </section>
+        <section>
+          <h2>セマンティックHTMLのメリット</h2>
+          <p>メリットがなければ使いません。紹介しておきます。</p>
+          <h3>検索エンジン最適化</h3>
+          <p>クローラーにとって読みやすいね。</p>
+          <h3>アクセシビリティ</h3>
+          <p>スクリーンリーダーが解析しやすくなるよ</p>
+        </section>
+        <footer>
+          <aside>
+            SNSシェア
+          </aside>
+        </footer>
+      </article>
+    </main>
 
-  <aside>
-    <h2>関連記事</h2>
-    <article>
-      <ul>
-        <li><a>リンク1</a></li>
-        <li><a>リンク2</a></li>
-        <li><a>リンク3</a></li>
-      </ul>
-    </article>
-  </aside>
+    <aside class="sidebar">
+      <h2>関連記事</h2>
+      <article>
+        <ul>
+          <li><a>リンク1</a></li>
+          <li><a>リンク2</a></li>
+          <li><a>リンク3</a></li>
+        </ul>
+      </article>
+    </aside>
+  </div>
 
   <footer>
     <small>Copyright 2020</small>

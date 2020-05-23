@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  background-color: #f3d9fa;
+}
+
+.sidebar {
+  background-color: #dee2e6;
+}
+@media ( max-width : 767px ){
+  .main {
+    width: 100%
+  }
+  
+  .sidebar {
+    display: none;
+  }
+}
+
+/* Responsive */
+@media ( min-width : 768px ){
+  .main {
+    /* width: 550px; */
+    /* flex: 2 0 300px; */
+    flex-grow: 1;
+  }
+  .sidebar {
+    width: 290px;
+    /* flex: 1 0 300px; */
+    margin-left: 20px;
+  }
+}
